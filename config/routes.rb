@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 LearningRails::Application.routes.draw do
   get '/' => 'pages#index'
+  post '/grandma' => 'pages#grandma'
 end
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
